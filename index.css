@@ -1,0 +1,131 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+    height: 69px;
+    display: flex;
+    position: fixed;
+    padding: 0 10px;
+    align-items: center;
+    background-color: black;
+    justify-content: space-between;
+    border-bottom: 1px seashell solid;
+}
+
+header img {
+    height: 50px;
+}
+
+header ul li {
+    display: inline;
+    padding: 0 5px;
+}
+
+header ul li a {
+    color: seashell;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 69px;
+}
+
+.mission-main-conainer {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+.text-container {
+    width: inherit;
+    justify-content: center;
+    background-color: black;
+}
+
+.text-container *{
+    padding: 8px 0;
+}
+
+.month-main-tea {
+    padding-top: 64px;
+}
+
+.products-container {
+    width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 24px;
+    justify-content: center;
+}
+
+.image-contianer {
+    padding: 0 12px;
+}
+
+
+.products-container .image-contianer img{
+    height: 200px;
+    width: 300px;
+}
+
+.products-container .image-contianer h4 {
+    margin: 10px 0 20px 0;
+}
+
+.location-main-container {
+    display: flex;
+    height: 600px;
+    width: 1200px;
+    margin-top: 64px;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.location-container {
+    display: flex;
+    justify-content: center;
+}
+
+.location-infomartion {
+    width: 300px;
+    opacity: 1;
+    margin: 15px 20px;
+    background-color: black;
+}
+
+.location-infomartion * {
+    padding: 16px 0px;
+}
+
+.contact-main-container {
+    display: flex;
+    height: 200px;
+    width: 1000px;
+    padding: 16px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+}
